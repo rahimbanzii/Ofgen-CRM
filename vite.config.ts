@@ -5,4 +5,8 @@ import tsconfigpaths from
 
 export default defineConfig({
   plugins: [tsconfigpaths(), react()],
+  base: "/Ofgen-CRM/",
+  build: {
+    outDir: "dist", // Default output directory
+  },
 });
